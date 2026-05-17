@@ -1,0 +1,21 @@
+{
+  "name": "shopify-product-audit",
+  "version": "1.5.0",
+  "description": "Systematischer Audit & Cleanup deiner Shopify-Produktdaten - read-only by default, in 20er-Batches, mit CSV-Backup und expliziter Bestätigung vor jeder Änderung. Auf Deutsch.",
+  "author": {
+    "name": "Daniel Gruber",
+    "url": "https://haunschmid-gruber.com"
+  },
+  "homepage": "https://haunschmid-gruber.com",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "audit",
+    "product-data",
+    "ecommerce",
+    "metafields",
+    "cleanup",
+    "dach",
+    "deutsch"
+  ]
+}

@@ -2,6 +2,16 @@
 
 Alle nennenswerten Änderungen an diesem Plugin werden hier dokumentiert.
 
+## [1.6.0] - 2026-05-17
+
+**Hinzugefügt**
+- **Smart Setup:** Phase 1 parst jetzt zuerst die User-Message und übernimmt bereits beantwortete Fragen explizit, statt starr alle 3 Fragen sequentiell zu stellen. Macht den Einstieg deutlich smoother wenn der User schon Pattern/Quelle/Scope mitgegeben hat.
+- **Undo-Flow:** Neue Sektion für Rollback. Findet das jüngste Backup-CSV im Downloads-Ordner, zeigt Diff (aktuell vs. Backup), schreibt vor dem Rollback ein Pre-Rollback-Backup (`shopify-audit-prerollback-...csv`), spielt zurück, verifiziert vollständig. Triggert auf "undo", "rückgängig", "rollback", "backup einspielen". Mit explizitem Hinweis dass Custom Metafields nicht im CSV-Export enthalten sind und manuell rollback-werden müssen.
+
+**Geändert**
+- SKILL.md von 416 auf 305 Zeilen reduziert (~27% inklusive der neuen Undo-Section; reine Bestands-Straffung ~40%). Redundante Emphasis ("NICHT VERHANDELBAR" mehrfach), doppelt formulierte Regeln zwischen Workflow und "Was du NIE tust", überlange Begründungen und doppelte Backup-Pfad-Beschreibung entfernt. Alle harten Regeln bleiben erhalten (verified per grep gegen kritische Patterns).
+- Pflicht-Outputs-Block aufgelöst und in die jeweiligen Phasen integriert.
+
 ## [1.5.0] - 2026-05-17
 
 ### Launch-Readiness für die öffentliche Veröffentlichung als Lead Magnet.

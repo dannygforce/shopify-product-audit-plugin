@@ -1,6 +1,6 @@
 {
   "name": "shopify-product-audit",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Systematischer Audit & Cleanup deiner Shopify-Produktdaten - read-only by default, in 20er-Batches, mit CSV-Backup und expliziter Bestätigung vor jeder Änderung. Auf Deutsch.",
   "author": {
     "name": "Daniel Gruber",

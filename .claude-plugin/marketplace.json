@@ -1,0 +1,27 @@
+{
+  "name": "haunschmid-gruber",
+  "owner": {
+    "name": "Daniel Gruber",
+    "url": "https://haunschmid-gruber.com"
+  },
+  "plugins": [
+    {
+      "name": "shopify-product-data",
+      "source": "./",
+      "description": "Systematischer Audit & Cleanup deiner Shopify-Produktdaten - read-only by default, in 20er-Batches, mit CSV-Backup und expliziter Bestätigung vor jeder Änderung. Auf Deutsch.",
+      "version": "1.6.0",
+      "homepage": "https://haunschmid-gruber.com",
+      "license": "MIT",
+      "keywords": [
+        "shopify",
+        "audit",
+        "product-data",
+        "ecommerce",
+        "metafields",
+        "cleanup",
+        "dach",
+        "deutsch"
+      ]
+    }
+  ]
+}
